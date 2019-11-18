@@ -1,8 +1,37 @@
 html {
   box-sizing: border-box;
+  background-color: #fff;
   font-family: 'Ubuntu', sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+header {
+  background-color: #18294f;
+}
+
+body {
+  margin: .9rem;
+}
+
+h1 {
+  font-family: 'Ubuntu', bold;
+  font-size: 2rem;
+  color: #fff;
+
+  text-align: center;
+}
+
+nav {
+
+}
+
+ul {
+
+}
+
+li {
+
 }
