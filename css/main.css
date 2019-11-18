@@ -17,7 +17,8 @@ body {
 }
 
 h1 {
-  font-family: 'Ubuntu', bold;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
   font-size: 2rem;
   color: #fff;
 
@@ -29,5 +30,10 @@ nav {
 }
 
 ul li {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: #6c8fe0;
 
+  text-align: center;
 }
