@@ -47,6 +47,7 @@ nav a {
   text-decoration: none;
   white-space: normal;
   color: #6c8fe0;
+  padding: 5px;
 }
 
 nav a:hover {
@@ -65,6 +66,20 @@ nav a:hover {
     margin: 0 0 1.3rem;
   }
 
+  nav a {
+    list-style-type: none;
+    text-decoration: none;
+    white-space: normal;
+    color: #6c8fe0;
+    padding: 5px;
+    width: 50%;
+  }
+
+  nav a:hover {
+    background-color: #6c8fe0;
+    color: #fff;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -76,6 +91,20 @@ nav a:hover {
 
   body {
     margin: 0 0 1.4rem;
+  }
+
+  nav a {
+    list-style-type: none;
+    text-decoration: none;
+    white-space: normal;
+    color: #6c8fe0;
+    padding: 5px;
+    width: 25%;
+  }
+
+  nav a:hover {
+    background-color: #6c8fe0;
+    color: #fff;
   }
 
 }
@@ -91,12 +120,40 @@ nav a:hover {
     margin: 0 0 1.5rem;
   }
 
+  nav a {
+    list-style-type: none;
+    text-decoration: none;
+    white-space: normal;
+    color: #6c8fe0;
+    padding: 5px;
+    width: 25%;
+  }
+
+  nav a:hover {
+    background-color: #6c8fe0;
+    color: #fff;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
+  }
+
+  nav a {
+    list-style-type: none;
+    text-decoration: none;
+    white-space: normal;
+    color: #6c8fe0;
+    padding: 5px;
+    width: 25%;
+  }
+
+  nav a:hover {
+    background-color: #6c8fe0;
+    color: #fff;
   }
 
 }
