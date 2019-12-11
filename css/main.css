@@ -46,7 +46,7 @@ nav a {
   list-style-type: none;
   text-decoration: none;
   white-space: nowrap;
-  padding: 0 .5em;
+  padding: .5em 0;
   color: #6c8fe0;
 }
 
@@ -74,7 +74,6 @@ nav a:hover {
     font-weight: normal;
     flex-wrap: wrap;
     display: flex;
-    width: 50%;
   }
 
   nav a {
@@ -82,7 +81,7 @@ nav a:hover {
     list-style-type: none;
     text-decoration: none;
     white-space: nowrap;
-    padding: 0 .5em;
+    padding: .5em 0;
     color: #6c8fe0;
     width: 50%;
   }
@@ -109,11 +108,11 @@ nav a:hover {
     justify-content: space-between;
     list-style-type: none;
     text-decoration: none;
+    align-items: center;
     font-size: 1.125rem;
     font-weight: normal;
     flex-wrap: wrap;
     display: flex;
-    width: 50%;
   }
 
   nav a {
@@ -121,7 +120,7 @@ nav a:hover {
     list-style-type: none;
     text-decoration: none;
     white-space: nowrap;
-    padding: 0 .5em;
+    padding: .5em .75em;
     color: #6c8fe0;
     width: 25%;
   }
