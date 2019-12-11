@@ -28,25 +28,25 @@ body {
 }
 
 header h1 {
-  padding: .5em .75em;
   text-align: center;
   font-weight: bold;
   font-size: 2rem;
   flex-wrap: wrap;
+  padding: .75rem;
 }
 
 nav ul {
   list-style-type: none;
   text-decoration: none;
   font-size: 1.125rem;
-  font-weight: 400;
+  font-weight: normal;
 }
 
 nav a {
   list-style-type: none;
   text-decoration: none;
-  white-space: nowrap;
   padding: .3em 0 .5em;
+  white-space: nowrap;
   color: #6c8fe0;
   display: flex;
 }
@@ -67,12 +67,21 @@ nav a:hover {
     margin: 0 0 1.3rem;
   }
 
+  nav ul {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: normal;
+  }
+
   nav a {
     list-style-type: none;
     text-decoration: none;
-    white-space: normal;
+    white-space: nowrap;
+    padding: .5em .75em;
     color: #6c8fe0;
-    padding: 5px;
+    display: flex;
+    margin: .9rem;
     width: 50%;
   }
 
